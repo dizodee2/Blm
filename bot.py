@@ -422,7 +422,8 @@ class BlumTod:
                     while True:
 
                         # количество очков
-                        point = random.randint(self.cfg.low, self.cfg.high)
+                        taps = random.randint(200, 250)
+                        point = taps * 50
 
                         # проверяем догс
                         try:
@@ -599,8 +600,8 @@ async def main():
                 "auto_claim": True,
                 "auto_task": True,
                 "auto_game": True,
-                "low": 240,
-                "high": 250,
+                "low": 10000,
+                "high": 12500,
                 "clow": 30,
                 "chigh": 60,
             }
