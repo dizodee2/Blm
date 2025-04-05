@@ -557,9 +557,9 @@ async def get_data(data_file, proxy_file):
 async def main():
     banner = f"""
 {magenta} _____ __    _____ _____  {white}BLUM AUTO TASK AND PLAY GAME BOT {green}BLUM
-{magenta}| __  |  |  |  |  |     | {green}Author : {white}DeepTV12
-{magenta}| __ -|  |__|  |  | | | | {white}YouTube : {green}https://www.youtube.com/@DeepT.V
-{magenta}|_____|_____|_____|_|_|_| {green}Note : {white}MUST SUBSCRIBE MY YOUTUBE CHANNEL
+{magenta}| __  |  |  |  |  |     | {green}Author : {white}Dee & Cyrus™️
+{magenta}| __ -|  |__|  |  | | | | {red}Whatsapp : {white}wa.me/254111200187 wa.me/254746812431
+{magenta}|_____|_____|_____|_|_|_| {green}Note : {white}feel free to partner with us
         """
     arg = argparse.ArgumentParser()
     arg.add_argument(
